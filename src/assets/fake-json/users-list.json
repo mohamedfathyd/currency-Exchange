@@ -1,0 +1,59 @@
+{"data": [
+      {
+        "id": 1,
+        "name": "mohamed fathy",
+        "username":"user",
+        "phone":"9321654",
+        "email":"lahdjksa@adas.com",
+        "type":"user",
+        "department":"IT",
+        "skills":["reading,writer,trainee"],
+        "performance":"Good"
+      },
+      {
+        "id": 2,
+        "name": "Fathy sadas",
+        "username":"user",
+        "phone":"9321654",
+        "email":"gewrjwe@gamil.com",
+        "type":"user",
+        "department":"Marketing",
+        "skills":["reading,writer,trainee"],
+        "performance":"Very Good"
+      },
+      {
+        "id": 3,
+        "name": "ahmed sadas",
+        "phone":"9321654",
+        "username":"user",
+        "email":"gewrjwe@gamil.com",
+        "type":"user",
+        "department":"Sales",
+        "skills":["reading,writer,trainee"],
+        "performance":"Good"
+      },
+      {
+        "id": 4,
+        "name": "test user",
+        "phone":"86203332",
+        "username":"user",
+        "email":"testUser@gamil.com",
+        "type":"user",
+        "department":"Business",
+        "skills":["reading,writer,trainee"],
+        "performance":"Bad"
+      },
+      {
+        "id": 5,
+        "name": "Morad ali",
+        "phone":"652256455",
+        "username":"user",
+        "email":"Moradds@gamil.com",
+        "type":"user",
+        "department":"Develober",
+        "skills":["reading,writer,trainee"],
+        "performance":"Very Good"
+      }
+      
+    ]
+}

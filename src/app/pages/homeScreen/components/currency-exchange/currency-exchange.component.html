@@ -1,0 +1,38 @@
+<div fxFlex fxLayoutAlign="start" class="dashboard" [dir]="language.direction">
+    <div fxFlex.gt-md="100" fxFlex="100" class="new-notif__side-menu">
+          <notif-top-bar></notif-top-bar>
+  <div class="page-style">
+          <form [formGroup]="ChangeForm" >
+            <label>{{language.from}}</label>
+    
+<div class="input-style">
+    <select formControlName="from" id="product" class="w-100 py-2 px-3 input ">
+      <option *ngFor="let curency of currencies" [value]="curency.name">{{curency.name}}
+      </option>
+  </select>  
+  </div>
+  <label>{{language.to}}</label>
+    
+  <div class="input-style">
+    <select formControlName="to" id="product" class="w-100 py-2 px-3 input ">
+      <option *ngFor="let curency of currencies" [value]="curency.name">{{curency.name}}
+      </option>
+  </select>  
+  </div>
+  <label>{{language.amount}}</label>
+  <div class="input-style">
+   <input type="tel" maxlength="6" 
+         onkeypress="if(!(event.charCode>=48 && event.charCode < 58))return false;"
+         formControlName="amount" [placeholder]="language.amount">
+   </div>
+  <div class="save">
+    <div class="content_save" (click)="changeCurrency()">
+        <div class="content_text" [attr.disabled]="ChangeForm.valid"> {{language.confirm}} </div>
+      </div>
+</div>
+<h4 class="confirm__title">{{currencyResult}}</h4>
+<label ></label>
+</form>
+</div>        
+  </div>
+  </div>

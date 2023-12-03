@@ -1,0 +1,29 @@
+<div fxFlex fxLayoutAlign="start" class="dashboard" [dir]="language.direction">
+    <div fxFlex.gt-md="100" fxFlex="100" class="new-notif__side-menu">
+          <notif-top-bar></notif-top-bar>
+
+          <div class="table-content">
+            
+            <table style="display: table;" datatable  class="table table-responsive"
+                id="datatable" #datatable>
+                <thead>
+                    <tr>
+                        <th> {{language.currency}} </th>
+                        <th> {{language.amount}} </th>
+                        <th> {{language.date}} </th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr *ngFor="let data of historicalList; let i = index">
+                        <td>{{data.currency}}</td>
+                        <td>{{data.amount}} </td>
+                        <td>{{data.date}} </td>    
+                       
+                        </tr>
+                </tbody>
+            </table>
+          </div>
+    </div>
+</div>
