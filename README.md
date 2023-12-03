@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+![image](https://github.com/mohamedfathyd/currency-Exchange/assets/31135718/f7b3fd2a-0ffb-4a5c-a26c-6037058aa44e)
+
+hint :    fixer api return   Cors error
+
+
+![image](https://github.com/mohamedfathyd/currency-Exchange/assets/31135718/a18c292a-9f5e-4397-a88b-653d2391fa69)
